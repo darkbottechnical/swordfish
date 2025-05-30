@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #222, #777);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    background-color: rgba(100, 100, 100, 50);
+    box-shadow: #222;
+}
+
+th, td {
+    padding: 8px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-shadow: #222;
+    -webkit-text-stroke: #222 0.001rem;
+}
+
+th{
+    background-color: #555;
+}
